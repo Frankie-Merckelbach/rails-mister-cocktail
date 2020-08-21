@@ -6,14 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Creating cocktails...'
-cocktails_attributes = [
-  {
-    cocktail_name:         'Porn-star Martini',
-    ingredient_name:      'vodka' 'passionfruit',
-    description:  'Passiongfruit',
-    dose_description: '2 lepels passie'
-  }
 
-]
-Cocktail.create!(cocktails_attributes)
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
+# Cocktail.create(name: "Porn-star Martini")
+# Cocktail.create(name: "Espresso Martini")
+# Cocktail.create(name: "Moscow Mule")
+# Dose.create(description: '2 g')
+# Dose.create(description: '2 g')
+
+
+
 puts 'Finished!'

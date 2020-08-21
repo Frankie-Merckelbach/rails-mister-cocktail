@@ -1,6 +1,10 @@
-<h1>Editing Cocktail</h1>
+<h1>Edit a cocktail!</h1>
+<%= form_for(@cocktail) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>
 
-<%= render 'form', cocktail: @cocktail %>
 
 <%= link_to 'Show', @cocktail %> |
 <%= link_to 'Back', cocktails_path %>
