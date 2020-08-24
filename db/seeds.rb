@@ -10,12 +10,18 @@ puts 'Creating cocktails...'
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "apple juice")
+Ingredient.create(name: "tequilla")
+Ingredient.create(name: "vodka")
+Ingredient.create(name: "passion fruit")
+Ingredient.create(name: "espresso bean")
+Ingredient.create(name: "soda")
+Ingredient.create(name: "cognac")
+
 # Cocktail.create(name: "Porn-star Martini")
 # Cocktail.create(name: "Espresso Martini")
 # Cocktail.create(name: "Moscow Mule")
 # Dose.create(description: '2 g')
 # Dose.create(description: '2 g')
-
-
 
 puts 'Finished!'
